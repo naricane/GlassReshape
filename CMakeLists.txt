@@ -3,7 +3,6 @@ cmake_minimum_required(VERSION 3.10)
 project(GlassReshape)
 
 set(GS_SOURCES
-  set(GS_SOURCES
   src/GS/Engine/Assets/MeshFactory.cpp
   src/GS/Engine/Core/Engine.cpp
   src/GS/Engine/Core/Error.cpp
@@ -16,7 +15,6 @@ set(GS_SOURCES
   src/GS/Engine/Render/Video.cpp
   src/GS/Engine/World.cpp
   src/GS/main.cpp
-)
 )
 
 option(GS_ASAN "Enable address sanitiser" OFF)
